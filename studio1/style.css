@@ -94,6 +94,9 @@ footer{
 
 
 /*styling links*/
+a{
+  color: #DFF2F3;
+}
 a:link {
     color: #DFF2F3;
     text-decoration: none;
