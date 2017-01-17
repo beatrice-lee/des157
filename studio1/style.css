@@ -1,5 +1,5 @@
 /* CSS Document */
-@charset "UTF-8";
+@charset"UTF-8";
 * {
     margin: 0px;
     padding: 0px;
@@ -26,7 +26,6 @@ h1{
   padding-bottom:5px;
   text-align: center;
   color:#DFF2F3 ;
-  background-color:;
 }
 
 h2{
@@ -107,9 +106,20 @@ a:hover {
     text-decoration: none;
 }
 
-a:active {
+a:active{
   color: #EFBA8E;
 }
+a:link {
+    color:  #FFD460;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
 
 <-- -->
 /*
