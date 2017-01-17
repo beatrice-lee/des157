@@ -11,7 +11,7 @@ function setup() {
   smooth();
     noStroke();
     rectMode(CENTER); //for every click the rect appears from center point
-    y=100;
+    var y=100;
 }
 
 
