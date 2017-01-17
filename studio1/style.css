@@ -9,7 +9,6 @@ body {
     font-weight:normal;
     font-style:normal;
 
-    /*background-color: #222;*/
     width:800px;
     margin:36px auto;
   }
@@ -24,7 +23,7 @@ h1{
   padding-top:20px;
   padding-bottom:5px;
   text-align: center;
-  color:#DFF2F3 ;
+  color:#DFF2F3;
 }
 
 h2{
