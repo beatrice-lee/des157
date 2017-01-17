@@ -1,58 +1,114 @@
+/* CSS Document */
 @charset "UTF-8";
 * {
     margin: 0px;
     padding: 0px;
 }
 
-
 body {
     font-family:sans-serif;
     font-weight:normal;
     font-style:normal;
+
+    /*background-color: #222;*/
+    width:800px;
+    margin:36px auto;
   }
 
 html{
-  background-color:#45ADAB;
+  background-color:#25454C;
 }
 
 h1{
   font-size: 3em;
-  font-family:
+  font-family:Poppins;
   padding-top:20px;
-  padding-left:60px;
   padding-bottom:5px;
   text-align: center;
-  color: #EE6C73;
-  background-color:#FDE3A0;
+  color:#DFF2F3 ;
+  background-color:;
+}
+
+h2{
+  font-family: Lato;
+  font-size: 1.5em;
+
+}
+.ex1{
+   color:#50C4CC;
+   text-decoration: none;
+   height: 300px;
+   width: 150px;
+   float: right;
+   margin-top: 50px;
+   margin-left: 50px;
+   line-height: 20px;
+}
+
+nav{
+  font-family: Lato;
+}
+
+ul, ol {
+padding-left: 30px;
+padding-bottom: 20px;
+padding-top: 15px;
+position:fixed;
 
 
 }
+
 #S1{
 float: left;
-width: 30%;
+padding-bottom: 20px;
+padding-top: 15px;
+
 }
 
 #S2{
   float: left;
-  width: 30%;
+  padding-bottom: 20px;
+  padding-top: 15px;
+
 }
 
 #S3{
   float: left;
-  width: 30%;
+
+  padding-bottom: 20px;
+  padding-top: 15px;
+
 }
 
 footer{
   position:fixed;
-     font-size:20px;
-     bottom:0px;
-     height:50px;
-     width: 100%;
-     background:#9DE0AD;
-     text-align: center;
-     margin-top: 100px;
-     padding-top: 20px;
-     font-family: '';
+  font-size:20px;
+  bottom:0px;
+  height:50px;
+  width: 100%;
+  background:#599CA5;
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 20px;
+  font-family: 'Poppins';
+
+}
+
+
+
+/*styling links*/
+a:link {
+    color: #DFF2F3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EFBA8E;
+    text-decoration: none;
+}
+
+a:active {
+  color: #EFBA8E;
 }
 
 <-- -->

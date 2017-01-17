@@ -13,7 +13,7 @@ console.log("this is a js comment"); //always make console log to start
 function setup() {
   var myCanvas= createCanvas(800, 250);
   myCanvas.parent('mySketch')
-  background(255);
+  /*background(255);*/
 }
 
 function draw() {
