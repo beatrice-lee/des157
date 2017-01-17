@@ -1,8 +1,7 @@
-/* CSS Document */
-@charset"UTF-8";
+@charset "UTF-8";
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -111,12 +110,6 @@ a:active{
 }
 a:link {
     color:  #FFD460;
-    text-decoration: none;
-
-}
-
-a:visited {
-    color: white;
     text-decoration: none;
 }
 
