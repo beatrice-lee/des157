@@ -5,26 +5,23 @@
 console.log("this is a js comment"); //always make console log to start
 
 
-/*void setup() {
-  size (800, 250);
-  background(255);
-}*/
-
 function setup() {
   var myCanvas= createCanvas(800, 250);
   myCanvas.parent('mySketch')
-  /*background(255);*/
+  smooth();
+    noStroke();
+    rectMode(CENTER); //for every click the rect appears from center point
+    y=100;
 }
 
 function draw() {
-  // statements here
-  //if the mouse is pressed, changed color
- if (mouseIsPressed){
-   console.log("pressed") //console log shows the message when you want to command something to show up (checking)
-   fill(0);
- } else {
-   fill(255);
- }
- ellipse(mouseX, mouseY, 50, 50); //ellipse after the mouse is pressed to work
+    background(225);
 
+
+function mouseClicked(){
+  //if the mouse is pressed, changed random color
+    fill(random(0,255), random(0,255), random(0,255), 50);
+
+    //rect after the mouse is pressed to work
+    rect(mouseX, mouseY, y, y);
 }
