@@ -4,6 +4,7 @@
 // like print() messages in Processing
 console.log("this is a js comment"); //always make console log to start
 
+var y=100;
 
 function setup() {
   var myCanvas= createCanvas(800, 250);
@@ -11,13 +12,13 @@ function setup() {
   smooth();
     noStroke();
     rectMode(CENTER); //for every click the rect appears from center point
-    var y=100;
+
 }
 
 
 function draw() { //draw - runs once a frame
-    background(225);
-
+    background(0);
+}
 
 function mouseClicked(){ //mouseClick runs everytime the mouse is clicked
   //if the mouse is pressed and released, changed random color
