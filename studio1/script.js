@@ -14,12 +14,13 @@ function setup() {
     y=100;
 }
 
-function draw() {
+
+function draw() { //draw - runs once a frame
     background(225);
 
 
-function mouseClicked(){
-  //if the mouse is pressed, changed random color
+function mouseClicked(){ //mouseClick runs everytime the mouse is clicked
+  //if the mouse is pressed and released, changed random color
     fill(random(0,255), random(0,255), random(0,255), 50);
 
     //rect after the mouse is pressed to work
